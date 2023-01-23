@@ -17,9 +17,10 @@ public class Main {
 	
 	public static void main(String[] args) 
 	{
-		shortest_path run = new shortest_path();
+		find_shortest_path run = new find_shortest_path();
 		
 		run.Generating_Nodes();
+		run.findPath();
 		run.Display_GUI();
 	}
 
